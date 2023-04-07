@@ -161,7 +161,8 @@ span.effect{
 .content{
     width: 100%;
     /* background-color: aliceblue; */
-    background-color: white;
+    /* background-color: white; */
+    background-color: #222;
     padding: 1.5rem;
     height: 65vh;
     border-radius: 0 3px 3px 0;
@@ -286,6 +287,9 @@ span.effect{
 
 
 /* Resume */
+.content-resume{
+    background-color: white;
+}
 .resume{
     display: flex;
     flex-basis: 50%;
@@ -304,6 +308,9 @@ span.effect{
     color: aliceblue;
     padding: 4px;
     border-radius: 3px;
+}
+.my-resume{
+    flex-basis: 50%;
 }
 .resume .year-title{
     font-size: 1.6rem;
@@ -418,6 +425,9 @@ span.effect{
 }
 
 /* Contact */
+#contact{
+    background-color: white;
+}
 .contact-set{
     display: flex;
 }
